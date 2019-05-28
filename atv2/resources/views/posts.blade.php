@@ -1,15 +1,15 @@
 @extends('principal')
 @section('conteudo-principal')
 
-       <h2>Posts</h2>
+       <h2>Medicamentos Cadastrados</h2>
 <a href="{{url('/posts/form-adicionar')}}" class= "btn btn-primary float-right mb-2">
     Adicionar</a>
        <table class="table table-dark">
             <tr>
                 <th>Id</th>
-                <th>Titulo</th>
-                <th>Texto</th>
-                <th>Data</th>
+                <th>Nome do Medicamento</th>
+                <th>Descriçao</th>
+                <th>Data de Vencimento</th>
                 <th>Opçoes</th>
             </tr>
 
